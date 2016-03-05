@@ -1,0 +1,13 @@
+development:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: hp_development
+  pool: 5
+
+test:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: hp_test
+  pool: 5
