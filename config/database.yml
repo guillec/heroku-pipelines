@@ -11,7 +11,3 @@ test:
   encoding: unicode
   database: hp_test
   pool: 5
-
-production:
-  adapter: postgresql
-  url: <%= ENV['DATABASE_URL'] %>
